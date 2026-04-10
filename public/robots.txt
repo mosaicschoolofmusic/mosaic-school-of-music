@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /thank-you
+
+# Host
+Host: https://mosaicschoolofmusic.com
+
+# Sitemaps
+Sitemap: https://mosaicschoolofmusic.com/sitemap.xml
