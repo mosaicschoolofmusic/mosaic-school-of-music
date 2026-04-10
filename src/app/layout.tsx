@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
+import Script from "next/script";
 import Header from "@/components/layout/Header";
 
 const playfair = Playfair_Display({
@@ -142,6 +143,20 @@ export default function RootLayout({
         <Footer />
         <WhatsAppFloat />
         <Analytics />
+
+        {/* Google Analytics 4 */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-BJB1DL6TB6"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-BJB1DL6TB6');
+          `}
+        </Script>
       </body>
     </html>
   );
