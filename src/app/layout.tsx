@@ -82,6 +82,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: BUSINESS.domain,
   },
+  verification: {
+    google: 'H1auejs-BCjvCSXNs5Ajv6FLAGDoFZBoIc5_7zF6Lww',
+  },
   robots: {
     index: true,
     follow: true,
