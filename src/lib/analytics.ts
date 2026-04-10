@@ -3,7 +3,7 @@ import { supabase } from './supabase';
 export interface AnalyticsEventData {
   event_type: 'form_view' | 'form_submit' | 'form_success';
   page_path?: string;
-  mode?: 'online' | 'home-tuition';
+  mode?: 'online' | 'home-tuition' | 'group-offline';
   user_session_id?: string;
 }
 
