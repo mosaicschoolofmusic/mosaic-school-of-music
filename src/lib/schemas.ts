@@ -12,10 +12,10 @@ export function getMusicSchoolSchema() {
     email: BUSINESS.email,
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Dwarka",
-      addressLocality: "Dwarka",
+      streetAddress: BUSINESS.streetAddress,
+      addressLocality: "New Delhi",
       addressRegion: "Delhi",
-      postalCode: "110078",
+      postalCode: BUSINESS.postalCode,
       addressCountry: "IN",
     },
     geo: {
@@ -27,7 +27,7 @@ export function getMusicSchoolSchema() {
       { "@type": "City", name: "Delhi" },
       { "@type": "Country", name: "India" },
     ],
-    sameAs: [BUSINESS.socials.facebook, BUSINESS.socials.instagram],
+    sameAs: [BUSINESS.socials.facebook, BUSINESS.socials.instagram, BUSINESS.googleBusinessProfile],
     priceRange: "$$",
     image: `${BUSINESS.domain}/images/logo.png`,
     openingHoursSpecification: [
@@ -164,8 +164,10 @@ export function getInPersonCourseSchema() {
           name: "At your home",
           address: {
             "@type": "PostalAddress",
-            addressLocality: "Dwarka",
+            streetAddress: BUSINESS.streetAddress,
+            addressLocality: "New Delhi",
             addressRegion: "Delhi",
+            postalCode: BUSINESS.postalCode,
             addressCountry: "IN",
           },
         },

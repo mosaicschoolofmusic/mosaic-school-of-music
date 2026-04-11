@@ -8,7 +8,9 @@ export const BUSINESS = {
   whatsappLink:
     "https://wa.me/919971510939?text=Hi%2C%20I%27m%20interested%20in%20guitar%20classes%20at%20Mosaic%20School%20of%20Music",
   domain: "https://mosaicschoolofmusic.com",
-  address: "Dwarka, New Delhi, India",
+  streetAddress: "3rd Floor, C-705, Ramphal Chowk Rd, opposite Shiksha Bharti School Road, Block C, Sector 7 Dwarka, Palam",
+  address: "3rd Floor, C-705, Sector 7 Dwarka, New Delhi 110077",
+  postalCode: "110077",
   serviceArea: "Dwarka & nearby areas, Delhi",
   socials: {
     facebook: "https://www.facebook.com/Mosaicschoolofmusic/",
@@ -16,7 +18,7 @@ export const BUSINESS = {
   },
   teacherEddieUrl: "https://teachereddie.lovable.app",
   googleSheetsWebhook: "REPLACE_WITH_YOUR_GOOGLE_APPS_SCRIPT_URL",
-  googleBusinessProfile: "https://g.co/kgs/mosaicschoolofmusic", // REPLACE with actual Google Business URL
+  googleBusinessProfile: "https://share.google/Hhmg2QsRORS5vLBUw",
 } as const;
 
 export const NAV_LINKS = [
