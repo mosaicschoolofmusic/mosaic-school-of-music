@@ -6,7 +6,12 @@
       "Bash(npm install:*)",
       "Bash(mv \"online class.png\" \"online-class.png\")",
       "Bash(mv \"group class.png\" \"group-class.png\")",
-      "Bash(mv \"offline class.png\" \"offline-class.png\")"
+      "Bash(mv \"offline class.png\" \"offline-class.png\")",
+      "Bash(ls -lh /Users/Claudeshiz/Desktop/mosaic-school-of-music/public/images/*.png)",
+      "Bash(awk '{print $5, $9}')",
+      "Bash(node -e \"const sharp = require\\('sharp'\\); console.log\\('sharp available'\\)\")",
+      "Bash(node -e ':*)",
+      "Bash(ls -lh /Users/Claudeshiz/Desktop/mosaic-school-of-music/public/images/*.webp)"
     ]
   }
 }

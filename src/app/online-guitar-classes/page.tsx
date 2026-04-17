@@ -198,7 +198,7 @@ export default function OnlineGuitarClassesPage() {
             {/* Image */}
             <div className="relative h-64 md:h-80 rounded-2xl overflow-hidden mb-12 shadow-card">
               <Image
-                src="/images/online-class.png"
+                src="/images/online-class.webp"
                 alt="Guitar instructor teaching an online class via video call"
                 fill
                 className="object-cover"

@@ -13,7 +13,7 @@ export default function OfflineClasses() {
           {/* Group class photo */}
           <div className="relative h-56 md:h-72 w-full">
             <Image
-              src="/images/group-class.png"
+              src="/images/group-class.webp"
               alt="Group guitar class with instructor and students"
               fill
               className="object-cover object-top"

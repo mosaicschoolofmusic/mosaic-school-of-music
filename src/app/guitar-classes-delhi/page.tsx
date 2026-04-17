@@ -172,7 +172,7 @@ export default function GuitarClassesDelhiPage() {
             {/* Image */}
             <div className="relative h-64 md:h-96 rounded-2xl overflow-hidden mb-12 shadow-card">
               <Image
-                src="/images/offline-class.png"
+                src="/images/offline-class.webp"
                 alt="Guitar instructor teaching a student at home in Delhi"
                 fill
                 className="object-cover"
