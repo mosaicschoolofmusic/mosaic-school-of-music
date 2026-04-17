@@ -42,7 +42,7 @@ const offlineOneToOneCard: ModeCard = {
   title: "Group Classes",
   subtitle: "In-person guitar classes in Sector 7, Dwarka",
   bullets: [
-    "Group classes starting from 2nd May 2026",
+    "Group classes starting from 15th May 2026",
     "Structured learning with focused instructor attention",
     "Parents can contact us for timings and fee details",
     "Limited seats for the new batch",

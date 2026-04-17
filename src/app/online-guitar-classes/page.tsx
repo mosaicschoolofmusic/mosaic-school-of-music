@@ -198,8 +198,8 @@ export default function OnlineGuitarClassesPage() {
             {/* Image */}
             <div className="relative h-64 md:h-80 rounded-2xl overflow-hidden mb-12 shadow-card">
               <Image
-                src="https://images.unsplash.com/photo-1516924962500-2b4b3b99ea02?w=1000&q=80"
-                alt="Online guitar class in progress via video call"
+                src="/images/online-class.png"
+                alt="Guitar instructor teaching an online class via video call"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 896px"

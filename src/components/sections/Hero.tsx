@@ -17,6 +17,12 @@ export default function Hero() {
   const sectionRef = useRef<HTMLElement>(null);
 
   const scrollToForm = () => {
+    if (typeof window !== "undefined" && (window as Window & { gtag?: Function }).gtag) {
+      (window as Window & { gtag?: Function }).gtag!("event", "generate_lead", {
+        event_category: "CTA",
+        event_label: "Hero - Book a Free Trial Class",
+      });
+    }
     const formEl = document.getElementById("contact");
     if (formEl) {
       formEl.scrollIntoView({ behavior: "smooth", block: "start" });

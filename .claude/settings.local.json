@@ -1,7 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "mcp__Claude_Preview__preview_start"
+      "mcp__Claude_Preview__preview_start",
+      "Bash(node -e \"require\\('docx'\\); console.log\\('docx ok'\\)\")",
+      "Bash(npm install:*)",
+      "Bash(mv \"online class.png\" \"online-class.png\")",
+      "Bash(mv \"group class.png\" \"group-class.png\")",
+      "Bash(mv \"offline class.png\" \"offline-class.png\")"
     ]
   }
 }

@@ -67,6 +67,14 @@ export default function LeadForm({
       user_session_id: getSessionId(),
     });
 
+    // GA4 standard event
+    if (typeof window !== "undefined" && (window as Window & { gtag?: Function }).gtag) {
+      (window as Window & { gtag?: Function }).gtag!("event", "generate_lead", {
+        event_category: "Form",
+        event_label: "Lead Form - Book My Free Trial",
+      });
+    }
+
     try {
       const response = await fetch("/api/lead", {
         method: "POST",
